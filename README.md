@@ -1,7 +1,3 @@
-Here’s an improved and expanded version of your `README.md` that incorporates the additional details from the task description and enhances the overall structure, clarity, and professionalism. It also includes sections for CI/CD setup, Nginx configuration, and deployment instructions.
-
----
-
 # FastAPI Book Management API
 
 ## Overview
@@ -182,7 +178,7 @@ The API includes proper error handling for:
 
 ## Nginx Configuration
 
-The FastAPI application is served using **Nginx** as a reverse proxy. The configuration file (`nginx.conf`) is included in the repository. Key settings include:
+The FastAPI application is served using **Nginx** as a reverse proxy. Key settings include:
 
 -   Proxy pass to the FastAPI application running on `localhost:8000`.
 -   Handling of API requests and static files.
@@ -244,7 +240,9 @@ For support, please open an issue in the [GitHub repository](https://github.com/
 
 ### Base URL
 
-The base URL of the deployed application will be provided after deployment.
+The base URL the application is `http://ec2-51-20-53-161.eu-north-1.compute.amazonaws.com/`
+
+---
 
 ### GitHub Repository
 
